@@ -34,8 +34,6 @@ fraud-detection-snowflake-streamlit/
 ├── streamlit_code/
 │   └── app.py                                      # Streamlit app
 │
-├── screenshots/
-│   └── sis_app_preview.png                         # Screenshot from final email
 │
 └── README.md
 ```
