@@ -38,3 +38,14 @@ fraud-detection-snowflake-streamlit/
 │
 └── README.md
 ```
+
+
+
+##  Run in Snowflake worksheet 
+1. Upload the app folder to a Snowflake internal stage
+2. Create or replace the Streamlit app:
+```sql
+CREATE OR REPLACE STREAMLIT CC_FINS_DB.ANALYTICS.FRAUDDETECTION_APP
+ROOT_LOCATION = '@CC_FINS_DB.ANALYTICS.FRAUD_DETECTION_APP'
+MAIN_FILE = 'Fraud_Detection_Optimized.py'
+QUERY_WAREHOUSE = 'CC_FINS_WH';
