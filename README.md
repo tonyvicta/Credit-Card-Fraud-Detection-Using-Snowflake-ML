@@ -23,7 +23,7 @@ Credit card fraud detection involves identifying suspicious or unauthorized tran
 
 ```
 fraud-detection-snowflake-streamlit/
-├── script/app/
+├── scripts/app/
 │     ├── Fraud_Detection_Optimized.py        # Python packages
 │     └── environment.yml
 │
