@@ -1,11 +1,12 @@
-# Credit-Card-Fraud-Detection-Using-Snowflake-ML
+# Credit Card Fraud Detection Using Snowflake ML
 
 
+## Project Overview
 
+This project demonstrates how to build an end-to-end credit card fraud detection pipeline using Snowflake ML and Streamlit in Snowflake, enhanced with geospatial visualization via PyDeck.
 
-# Fraud Detection in Snowflake + Streamlit
+Credit card fraud detection involves identifying suspicious or unauthorized transactions by analyzing behavioral and transactional patterns. This solution focuses on post-transaction analysis using historical data and Snowflake’s machine learning capabilities to detect potential fraud based on engineered features.
 
-🚨 An end-to-end credit card fraud detection dashboard using Snowflake ML and Streamlit, featuring geospatial visualization with PyDeck.
 
 ## 📊 Features
 - Streamlit UI with interactive map of transactions
