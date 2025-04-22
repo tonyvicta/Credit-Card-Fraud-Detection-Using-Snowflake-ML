@@ -29,10 +29,7 @@ fraud-detection-snowflake-streamlit/
 │
 ├── notebooks/
 │   ├── 0_start_here.ipynb
-│   └── 1_CC_FRAUD_DETECTION.ipynb│   
-│
-├── streamlit_code/
-│   └── app.py                                      # Streamlit app
+│   └── 1_CC_FRAUD_DETECTION.ipynb
 │
 │
 └── README.md
